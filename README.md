@@ -22,10 +22,8 @@ Web server with PHP.
 
     a. Using a network sniffer on your web server (e.g. tcpdump or Wireshark)
   
-    b. Increase the log verbosity on the web server
+    b. Increase the log verbosity on the web server - example for an Apache server to log all request details (typically in file apache2.conf)
     
-      Example for an Apache server to log all request details (typically in file apache2.conf)
-    
-		   ``LogLevel trace8`` (instead of LogLevel warn)
+      ``LogLevel trace8`` (instead of ``LogLevel warn``)
     
     
