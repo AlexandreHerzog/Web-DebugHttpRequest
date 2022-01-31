@@ -11,10 +11,10 @@ Web server with PHP.
 
    Example for an Apache server to suppress version details (e.g. in file apache2.conf or security.conf):
    
-   ``
+   ```
    ServerTokens Prod
    ServerSignature Off
-   ``
+   ```
    
 3. Visit the page from a browser & submit requests, altering the HTTP verb and the submitted payload as desired
 
